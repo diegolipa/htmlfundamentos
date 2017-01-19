@@ -1,0 +1,58 @@
+a:link{
+	color:yellow;
+}
+a:visited{
+	color:olive;
+}
+
+legend:hover{
+	color: red;
+}
+legend:active{
+	color: blue;
+}
+input:focus{
+	color: orange;
+}
+
+
+/*li:first-child{
+	background: yellow;
+}
+li:last-child{
+	background: red;
+}
+li:nth-child(2n){
+	background: orange;
+}
+li:nth-child(3n){
+	background: olive;
+}*/
+body{
+	background:#2c3e50;
+	margin:30px 30px;
+	font-family: trebuchet ms;
+	color:white;
+}
+.titulo{
+	text-align: center;
+}
+h1::before{
+	content: "Before";
+	background:orange;
+}
+h1::after{
+	content:"After";
+	background:orange;
+}
+p::first-letter{
+	font-size: 36px;
+	color: gold;
+}
+p::first-line{
+	color:crimson;
+}
+
+ul > li{
+	margin-left:40px;
+}

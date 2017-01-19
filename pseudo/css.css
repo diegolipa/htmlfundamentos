@@ -1,0 +1,21 @@
+p + p{
+	background: yellow;
+}
+.level1{
+	width: 400px;
+	height: 400px;
+	background: red;
+	font-size: 80px;
+}
+.level2{
+	background: green;
+	width:50%;
+	height:50%;
+	font-size: 50%;
+}
+.level3{
+	background: blue;
+	width:50%;
+	height:50%;
+	font-size: 50%;
+}
