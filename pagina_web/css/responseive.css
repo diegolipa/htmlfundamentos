@@ -1,0 +1,36 @@
+@media all and (min-width: 480px){
+
+/***********************
+PAGINA: CONTACTO;
+************************/
+
+	#primary{
+		width: 50%;
+		float: left;
+	}
+
+
+	#secondary{
+		width: 40%;
+		float: right;
+
+	}
+
+/***********************
+PAGINA: PORTAFOLIO;
+************************/
+#gallery li {
+	/*15% margin 85% para los elementos / 3=28.333333*/
+	width: 28.3333%;
+}
+#gallery li:nth-child(4n) {
+	clear: left;
+}
+
+
+
+@media all and (min-width: 660px){
+
+
+
+}
